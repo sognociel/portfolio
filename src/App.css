@@ -1,0 +1,101 @@
+/* 한글 폰트 */
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hahmlet:wght@100;200&display=swap");
+
+/* 영어 폰트 */
+@import url("https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+@import "https://fonts.googleapis.com/css?family=Roboto+Mono:100";
+
+/* 얇은 영어 폰트 */
+@import url("https://fonts.googleapis.com/css2?family=Alumni+Sans:wght@100&display=swap");
+
+.portfolio-app {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  text-align: center;
+  width: 80%;
+  animation: pageOpen 4s ease-in-out;
+}
+
+.fixed-border {
+  margin-top: 210px;
+}
+
+html {
+  scroll-behavior: smooth;
+  cursor: var(--default-cursor);
+}
+
+body {
+  font-family: var(--default-eng-font);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+:root {
+  --png-yellow-color: invert(70%) sepia(80%) saturate(2320%) hue-rotate(360deg)
+    brightness(90%) contrast(180%);
+  --png-brown-color: invert(24%) sepia(96%) saturate(717%) hue-rotate(15deg)
+    brightness(130%) contrast(104%);
+  --light-yellow-color: rgb(255, 174, 0);
+  --purple-color: rgb(102, 103, 171);
+  --opacity-purple-color: rgba(102, 103, 171, 0.4);
+  --opacity-light-yellow-color: rgba(255, 174, 0, 0.4);
+  --default-eng-font: "Gothic A1", sans-serif;
+  --light-eng-font: "Alumni Sans", sans-serif;
+  --handwrite-font: "Nanum Brush Script", cursive;
+  --ibm-flex-sans-kr: "IBM Plex Sans KR", sans-serif;
+  --hahmlet-font: "Hahmlet", serif;
+  --dancing-script-font: "Dancing Script", cursive;
+  --roboto-mono-font: "Roboto Mono", monospace;
+  --default-cursor: url("../src/img/cursor_yellow.png"), auto;
+  --pointer-cursor: url("../src/img/cursor_purple.png"), auto;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+a,
+button {
+  text-decoration: none;
+  color: inherit;
+  cursor: var(--pointer-cursor);
+}
+
+@keyframes rotateCog {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
+@media screen and (max-width: 880px) {
+  .fixed-border {
+    margin-top: 100px;
+  }
+}
+
+@keyframes pageOpen {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+}

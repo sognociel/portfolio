@@ -1,0 +1,26 @@
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  position: fixed;
+  top: 0;
+}
+
+.default {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.nav_cogwheel {
+  width: 50px;
+  height: 50px;
+  margin: 0px 10px 0px 20px;
+  filter: var(--png-yellow-color);
+  animation: rotateCog 4s linear infinite;
+}
+
+.bomis_portfolio {
+  font-size: 35px;
+}

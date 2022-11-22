@@ -1,0 +1,50 @@
+/* skills */
+
+.html,
+.css,
+.javascript,
+.react,
+.python {
+  font-size: 30px;
+}
+
+.html {
+  color: #e34f26;
+}
+.css {
+  color: #1572b6;
+}
+.javascript {
+  color: #f7df1e;
+}
+.react {
+  color: #61dafb;
+}
+.python {
+  color: #3776ab;
+}
+
+.skills_container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-auto-rows: minmax(100px, auto);
+  width: 100%;
+  height: auto;
+  font-size: 20px;
+}
+
+.skills_container span {
+  margin-left: 10px;
+}
+
+.skills_content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 880px) {
+  .skills_container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

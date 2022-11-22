@@ -1,0 +1,60 @@
+section {
+  font-family: --ibm-flex-sans-kr;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* info */
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--hahmlet-font);
+  font-size: 50px;
+  margin: 50px 0px 100px 0px;
+}
+
+.info span {
+  font-size: 80px;
+  color: var(--light-yellow-color);
+}
+
+.info > p {
+  font-size: 20px;
+}
+
+h1 {
+  font-size: 70px;
+  font-family: var(--handwrite-font);
+}
+
+.info h1:nth-child(2) {
+  margin-bottom: 30px;
+}
+
+h2 {
+  font-family: var(--dancing-script-font);
+  font-size: 40px;
+  margin-bottom: 50px;
+}
+
+h2::first-letter,
+h2 span::first-letter {
+  color: var(--purple-color);
+  font-size: 80px;
+}
+
+#aboutMe,
+#skills,
+#project,
+#career,
+#edu {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

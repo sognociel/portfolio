@@ -1,0 +1,49 @@
+/* aboutme */
+
+.person_icon,
+.birth_icon,
+.address_icon,
+.email_icon,
+.school_icon,
+.notion_icon {
+  font-size: 40px;
+}
+
+.aboutMe_container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: minmax(100px, auto);
+  width: auto;
+  height: auto;
+}
+
+.name,
+.birth,
+.address,
+.email,
+.school,
+.notion {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0px 30px;
+}
+
+.aboutMe_content {
+  text-align: left;
+  margin-left: 20px;
+}
+
+.aboutMe__label {
+  font-size: 20px;
+  font-weight: 900;
+  font-family: var(--hahmlet-font);
+}
+
+@media screen and (max-width: 880px) {
+  .aboutMe_container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
