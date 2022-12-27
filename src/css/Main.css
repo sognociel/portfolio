@@ -11,11 +11,10 @@
   background: url("../img/main_background.png");
 }
 
-._35Xnh {
+.main_text {
   font-family: var(--light-eng-font);
-  font-weight: 100;
-  font-size: 70px;
   font-weight: 400;
+  font-size: 70px;
   margin-bottom: 20px;
 }
 

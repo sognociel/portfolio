@@ -1,8 +1,11 @@
 import React, { useState } from "react";
-import "../css/Navbar.css";
+
 import { MdOutlineMenu } from "react-icons/md";
 
+import "../css/Navbar.css";
+
 const Navbar = () => {
+  // navbar 항목을 클릭하면 접히게 하는 기능
   const [open, setOpen] = useState(false);
   const toggleList = () => {
     setOpen((open) => !open);
@@ -52,6 +55,7 @@ const Navbar = () => {
           </li>
         </a>
       </ul>
+      {/* 반응형 토글 메뉴 */}
       <MdOutlineMenu className="menu" onClick={() => toggleList()} />
     </nav>
   );

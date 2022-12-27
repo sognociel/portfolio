@@ -1,11 +1,13 @@
 import React from "react";
-import "../../css/Sections/AboutMe.css";
+
 // info icon
 import { SlLocationPin } from "react-icons/sl";
 import { BsCalendarCheck } from "react-icons/bs";
 import { BsPerson } from "react-icons/bs";
 import { AiOutlineMail } from "react-icons/ai";
 import { GiTigerHead } from "react-icons/gi";
+
+import "../../css/Sections/AboutMe.css";
 
 const Aboutme = () => {
   return (
@@ -41,11 +43,7 @@ const Aboutme = () => {
           <AiOutlineMail className="email_icon" />
           <div className="aboutMe_content">
             <div className="aboutMe__label">이메일</div>
-            <div className="aboutMe__text">
-              sognociel@gmail.com
-              <br />
-              sognoaurore@naver.com
-            </div>
+            <div className="aboutMe__text">sognociel@gmail.com</div>
           </div>
         </div>
 

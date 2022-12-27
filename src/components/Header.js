@@ -1,6 +1,6 @@
-// import React, { useState } from "react";
-import "../css/Header.css";
 import technicalsupport from "../img/technical-support.png";
+
+import "../css/Header.css";
 
 const Header = () => {
   return (

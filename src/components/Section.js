@@ -1,10 +1,12 @@
 import React from "react";
-import "../css/Section.css";
+
 import AboutMe from "./Sections/AboutMe.js";
 import Skills from "./Sections/Skills.js";
 import Project from "./Sections/Project.js";
 import Career from "./Sections/Career.js";
 import Education from "./Sections/Education.js";
+
+import "../css/Section.css";
 
 const Section = () => {
   return (

@@ -1,14 +1,18 @@
 import React from "react";
-import "../../css/Sections/Skills.css";
 
 // skills icon
 import {
   SiHtml5,
   SiCss3,
-  SiReact,
   SiJavascript,
+  SiReact,
+  SiRedux,
   SiPython,
+  SiFirebase,
 } from "react-icons/si";
+import { FaSass } from "react-icons/fa";
+
+import "../../css/Sections/Skills.css";
 
 const Skills = () => {
   return (
@@ -25,6 +29,10 @@ const Skills = () => {
           <span>CSS3</span>
         </div>
         <div className="skills_content">
+          <FaSass className="sass" />
+          <span>Sass</span>
+        </div>
+        <div className="skills_content">
           <SiJavascript className="javascript" />
           <span>JavaScript</span>
         </div>
@@ -33,8 +41,16 @@ const Skills = () => {
           <span>React</span>
         </div>
         <div className="skills_content">
+          <SiRedux className="redux" />
+          <span>Redux</span>
+        </div>
+        <div className="skills_content">
           <SiPython className="python" />
           <span>Python</span>
+        </div>
+        <div className="skills_content">
+          <SiFirebase className="firebase" />
+          <span>Firebase</span>
         </div>
       </div>
     </div>

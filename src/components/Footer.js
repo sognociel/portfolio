@@ -1,9 +1,14 @@
 import React from "react";
+
+import {
+  SiGithub,
+  SiGmail,
+  SiInstagram,
+  SiBlogger,
+  SiNotion,
+} from "react-icons/si";
+
 import "../css/Footer.css";
-import github from "../img/github.png";
-import gmail from "../img/gmail.png";
-import instagram from "../img/instagram.png";
-import blog from "../img/blog.png";
 
 const Footer = () => {
   return (
@@ -13,7 +18,7 @@ const Footer = () => {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <img src={github} alt="" className="footerImg" />
+        <SiGithub className="footerImg" />
       </a>
 
       <a
@@ -21,7 +26,7 @@ const Footer = () => {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <img src={gmail} alt="" className="footerImg" />
+        <SiGmail className="footerImg" />
       </a>
 
       <a
@@ -29,7 +34,7 @@ const Footer = () => {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <img src={instagram} alt="" className="footerImg" />
+        <SiInstagram alt="" className="footerImg" />
       </a>
 
       <a
@@ -37,7 +42,15 @@ const Footer = () => {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <img src={blog} alt="" className="footerImg" />
+        <SiBlogger className="footerImg" />
+      </a>
+
+      <a
+        href="https://boatneck-gazelle-7ea.notion.site/864c47b101e64819ad8e190c16d58b70"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <SiNotion className="footerImg" />
       </a>
     </footer>
   );

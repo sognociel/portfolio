@@ -1,3 +1,5 @@
+// 채널톡 채팅서비스를 위한 파일
+
 class ChannelService {
   constructor() {
     this.loadScript();

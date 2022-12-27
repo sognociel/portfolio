@@ -1,8 +1,10 @@
 import React, { useState } from "react";
-import "../css/Main.css";
-import cogwheel from "../img/cogwheel.png";
-import TextScrambler from "react-scramble-text";
 
+import cogwheel from "../img/cogwheel.png";
+
+import "../css/Main.css";
+
+// 톱니바퀴를 클릭했을 때 소리가 나오는 기능
 const Autoplay = () => {
   return (
     <div>
@@ -15,17 +17,17 @@ const Autoplay = () => {
   );
 };
 
+// 첫 페이지(메인) 컴포넌트
 const Main = ({ toggleMain }) => {
-  const phrases = ["Hello", "Front-end Developer PARK BOMI"];
+  // Main toggle. 다음 페이지로 넘어가는 기능
   const [isPlay, setIsPlay] = useState(false);
-
   const toggleIsPlay = () => {
     setIsPlay((isPlay) => !isPlay);
   };
 
   return (
     <div id="main">
-      <TextScrambler phrases={phrases} speed={50} pauseTime={800} />
+      <div className="main_text">Front-end Developer PARK BOMI</div>
       <div className="message_text">click the cogwheel</div>
       <img
         src={cogwheel}
