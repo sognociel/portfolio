@@ -13,6 +13,7 @@
 <div align="center">
 <img src="src/img/project_img/portfolio.png" alt="portfolio" width="90%">
 <br>
+<br>
 <p>
   React를 처음 배우고 <b>React로 무엇을 만들어보면 좋을까?</b> 생각해 보다 포트폴리오를 많이 만든다는 말을 듣고 나도 한 번 만들어보자!는 마음으로 시작한 프로젝트입니다. <br />
 톱니바퀴가 돌아가는, 스팀펑크풍의 연금술사라는 콘셉트로 구상을 잡았었습니다.<br />
