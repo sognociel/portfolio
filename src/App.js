@@ -7,11 +7,11 @@ import Navbar from "./components/Navbar";
 import Section from "./components/Section";
 import Footer from "./components/Footer";
 import ChannelService from "./components/ChannelService";
-import PluginKey from "./PluginKey";
+// import PluginKey from "./PluginKey";
 
-ChannelService.boot({
-  pluginKey: PluginKey, //please fill with your plugin key
-});
+// ChannelService.boot({
+//   pluginKey: PluginKey, //please fill with your plugin key
+// });
 
 function App() {
   const [isMain, setIsMain] = useState(true);
