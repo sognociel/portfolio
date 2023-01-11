@@ -7,7 +7,7 @@ import Navbar from "./components/Navbar";
 import Section from "./components/Section";
 import Footer from "./components/Footer";
 import ChannelService from "./components/ChannelService";
-import plugInKey from "./PluginKey";
+// import plugInKey from "./PluginKey";
 
 ChannelService.boot({
   pluginKey: plugInKey, //please fill with your plugin key
