@@ -6,12 +6,12 @@ import Header from "./components/Header";
 import Navbar from "./components/Navbar";
 import Section from "./components/Section";
 import Footer from "./components/Footer";
-import ChannelService from "./components/ChannelService";
+// import ChannelService from "./components/ChannelService";
 // import plugInKey from "./PluginKey";
 
-ChannelService.boot({
-  pluginKey: plugInKey, //please fill with your plugin key
-});
+// ChannelService.boot({
+//   pluginKey: plugInKey, //please fill with your plugin key
+// });
 
 function App() {
   const [isMain, setIsMain] = useState(true);
