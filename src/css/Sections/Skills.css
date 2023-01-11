@@ -5,7 +5,9 @@
 .react,
 .redux,
 .python,
-.firebase {
+.firebase,
+.github,
+.figma {
   font-size: 30px;
 }
 
@@ -32,6 +34,12 @@
 }
 .firebase {
   color: #ffca28;
+}
+.github {
+  color: #ffffff;
+}
+.figma {
+  color: #f24e1e;
 }
 
 .skills_container {

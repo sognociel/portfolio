@@ -57,4 +57,22 @@ export const projectData = [
     link: "https://se-soccer.vercel.app/",
     github: "https://github.com/sognociel/seSoccer.git",
   },
+  {
+    id: v4(),
+    img: require("../../img/project_img/ledsaver.png"),
+    team: "4인 팀 프로젝트",
+    title: "LEDSAVER 관리자 페이지",
+    date: "22. 12. 19 ~ 23. 01. 13",
+    skills: "React, Redux & reduxjs/toolkit, Sass, Firebase",
+    charge: [
+      "마커 클릭 시 해당 권역의 데이터로 전환하여 화면에 표시",
+      "충전소를 클릭하면 해당 충전소의 상세 페이지로 넘어가고, 충전소 페이지에서 충전기를 클릭하면 해당 충전기의 상세 페이지로 넘어가는 navigation 구현",
+      "Redux-toolkit을 이용하여 전역 데이터 상태관리",
+      "Redux-toolkit Thunk로 비동기 데이터 관리",
+    ],
+    remembrance:
+      "비동기 통신으로 데이터를 받아오는 방법을 제대로 구현해 본 적이 없어 걱정이었는데, SeSAC 최종 프로젝트에서 마음껏 경험해 볼 수 있어 좋았습니다. Figma를 이용하여 컴포넌트 구조를 설계하고, 해당 구조에 맞춰 폴더를 구성한 후 각 컴포넌트에 맞는 Slice를 만드는 흐름을 파악할 수 있게 되었습니다. 프로젝트 마감일까지 최선을 다해 나머지 부분을 구현하고자 노력하고 있습니다. 또한 협업 시 Prettier 설정 등 사전에 팀원들끼리 맞춰야 하는 설정들에 대해 깨우치는 시간이 되었습니다.",
+    link: "https://sesac-saver-djshinnn.vercel.app/",
+    github: "https://github.com/djshinnn/sesac-saver.git",
+  },
 ];

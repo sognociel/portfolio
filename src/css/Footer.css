@@ -15,3 +15,12 @@ footer {
 .footerImg:hover {
   color: var(--light-yellow-color);
 }
+
+@media screen and (max-width: 880px) {
+  .footerImg {
+    font-size: 30px;
+    margin: 0px 10px;
+    color: var(--opacity-light-yellow-color);
+    transition: 1s all ease-in-out;
+  }
+}

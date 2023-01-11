@@ -9,7 +9,6 @@ const Career = () => {
     <div id="career">
       <div className="fixed-border"></div>
       <h2>CAREER</h2>
-
       {careerData.map((item) => (
         <div className="career_container" key={item.id}>
           <div className="career_content">

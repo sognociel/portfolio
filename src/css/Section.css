@@ -58,3 +58,37 @@ h2 span::first-letter {
   justify-content: center;
   align-items: center;
 }
+
+@media screen and (max-width: 880px) {
+  .info {
+    font-size: 50px;
+    margin: 20px 0px 0px 0px;
+  }
+
+  .info span {
+    font-size: 60px;
+  }
+
+  .info > p {
+    font-size: 15px;
+  }
+
+  h1 {
+    font-size: 50px;
+  }
+
+  .info h1:nth-child(2) {
+    margin-bottom: 20px;
+  }
+
+  h2 {
+    font-size: 30px;
+    margin-bottom: 50px;
+  }
+
+  h2::first-letter,
+  h2 span::first-letter {
+    color: var(--purple-color);
+    font-size: 60px;
+  }
+}

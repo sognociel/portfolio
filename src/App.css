@@ -99,3 +99,9 @@ button {
     opacity: 1;
   }
 }
+
+@media screen and (max-width: 880px) {
+  html {
+    font-size: 14px;
+  }
+}

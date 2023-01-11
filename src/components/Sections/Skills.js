@@ -10,7 +10,8 @@ import {
   SiPython,
   SiFirebase,
 } from "react-icons/si";
-import { FaSass } from "react-icons/fa";
+import { FaSass, FaFigma } from "react-icons/fa";
+import { AiFillGithub } from "react-icons/ai";
 
 import "../../css/Sections/Skills.css";
 
@@ -51,6 +52,14 @@ const Skills = () => {
         <div className="skills_content">
           <SiFirebase className="firebase" />
           <span>Firebase</span>
+        </div>
+        <div className="skills_content">
+          <AiFillGithub className="github" />
+          <span>GitHub</span>
+        </div>
+        <div className="skills_content">
+          <FaFigma className="figma" />
+          <span>Figma</span>
         </div>
       </div>
     </div>

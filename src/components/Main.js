@@ -27,7 +27,10 @@ const Main = ({ toggleMain }) => {
 
   return (
     <div id="main">
-      <div className="main_text">Front-end Developer PARK BOMI</div>
+      <div className="main_text">
+        Front-end Developer
+        <br /> PARK BOMI
+      </div>
       <div className="message_text">click the cogwheel</div>
       <img
         src={cogwheel}
