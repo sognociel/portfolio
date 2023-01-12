@@ -6,12 +6,11 @@ import Header from "./components/Header";
 import Navbar from "./components/Navbar";
 import Section from "./components/Section";
 import Footer from "./components/Footer";
-// import ChannelService from "./components/ChannelService";
-// import plugInKey from "./PluginKey";
+import ChannelService from "./components/ChannelService";
 
-// ChannelService.boot({
-//   pluginKey: plugInKey, //please fill with your plugin key
-// });
+ChannelService.boot({
+  pluginKey: process.env.REACT_APP_PLUGIN_KEY, //please fill with your plugin key
+});
 
 function App() {
   const [isMain, setIsMain] = useState(true);

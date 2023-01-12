@@ -2,6 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 75%;
   height: 100px;
   position: fixed;
   top: 0;
@@ -25,6 +26,27 @@
   font-size: 35px;
 }
 
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact_icon {
+  font-size: 35px;
+  margin-left: 20px;
+  color: var(--light-yellow-color);
+  transition: 1s all ease-in-out;
+}
+
+.kakao_icon {
+  font-size: 40px;
+}
+
+.contact_icon:hover {
+  color: var(--opacity-light-yellow-color);
+}
+
 @media screen and (max-width: 880px) {
   .nav_cogwheel {
     width: 30px;
@@ -36,5 +58,13 @@
 
   .bomis_portfolio {
     font-size: 25px;
+  }
+
+  .contact_icon {
+    font-size: 20px;
+    margin-left: 5px;
+  }
+  .kakao_icon {
+    font-size: 22px;
   }
 }

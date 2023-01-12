@@ -9,9 +9,9 @@ import {
   SiRedux,
   SiPython,
   SiFirebase,
+  SiGithub,
 } from "react-icons/si";
 import { FaSass, FaFigma } from "react-icons/fa";
-import { AiFillGithub } from "react-icons/ai";
 
 import "../../css/Sections/Skills.css";
 
@@ -54,7 +54,7 @@ const Skills = () => {
           <span>Firebase</span>
         </div>
         <div className="skills_content">
-          <AiFillGithub className="github" />
+          <SiGithub className="github" />
           <span>GitHub</span>
         </div>
         <div className="skills_content">

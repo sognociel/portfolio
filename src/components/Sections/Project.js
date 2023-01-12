@@ -1,4 +1,5 @@
 import React from "react";
+import { v4 } from "uuid";
 
 import { projectData } from "../../components/datas/project";
 
@@ -11,7 +12,7 @@ const Project = () => {
       <h2>PROJECT</h2>
 
       {projectData.map((item) => (
-        <div className="project_container" key={item.id}>
+        <div className="project_container" key={v4()}>
           <div className="project__content">
             <img src={item.img} alt="" />
             <div className="project__team">{item.team}</div>
@@ -31,10 +32,10 @@ const Project = () => {
             <div className="project__charge">
               <h4>기능</h4>
               {item.charge.map((it) => (
-                <>
+                <React.Fragment key={v4()}>
                   {it}
                   <br />
-                </>
+                </React.Fragment>
               ))}
             </div>
             <div className="project__remembrance">

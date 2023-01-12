@@ -1,8 +1,5 @@
-import { v4 } from "uuid";
-
 export const projectData = [
   {
-    id: v4(),
     img: require("../../img/project_img/sangsomun-todo.png"),
     team: "1인 개인 프로젝트",
     title: "Sangsomun-todo",
@@ -21,7 +18,6 @@ export const projectData = [
   },
 
   {
-    id: v4(),
     img: require("../../img/project_img/portfolio.png"),
     team: "1인 개인 프로젝트",
     title: "React 포트폴리오",
@@ -38,7 +34,6 @@ export const projectData = [
   },
 
   {
-    id: v4(),
     img: require("../../img/project_img/sesoccer.png"),
     team: "7인 팀 프로젝트",
     title: "Sesoccer",
@@ -58,7 +53,6 @@ export const projectData = [
     github: "https://github.com/sognociel/seSoccer.git",
   },
   {
-    id: v4(),
     img: require("../../img/project_img/ledsaver.png"),
     team: "4인 팀 프로젝트",
     title: "LEDSAVER 관리자 페이지",

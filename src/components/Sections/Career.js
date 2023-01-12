@@ -1,4 +1,5 @@
 import React from "react";
+import { v4 } from "uuid";
 
 import { careerData } from "../datas/career";
 
@@ -10,7 +11,7 @@ const Career = () => {
       <div className="fixed-border"></div>
       <h2>CAREER</h2>
       {careerData.map((item) => (
-        <div className="career_container" key={item.id}>
+        <div className="career_container" key={v4()}>
           <div className="career_content">
             <div className="career__name">{item.name}</div>
             <div className="career__date">
@@ -20,10 +21,10 @@ const Career = () => {
             </div>
             <div className="career__info">
               {item.info.map((it) => (
-                <>
+                <React.Fragment key={v4()}>
                   {it}
                   <br />
-                </>
+                </React.Fragment>
               ))}
             </div>
           </div>

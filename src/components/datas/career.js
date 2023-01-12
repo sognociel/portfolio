@@ -1,8 +1,5 @@
-import { v4 } from "uuid";
-
 export const careerData = [
   {
-    id: v4(),
     name: "법무법인 화담",
     date: "2020. 03 ~ 2022. 07",
     info: [
