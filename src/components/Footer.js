@@ -8,8 +8,6 @@ import {
   SiNotion,
 } from "react-icons/si";
 
-import "../css/Footer.css";
-
 const Footer = () => {
   return (
     <footer>

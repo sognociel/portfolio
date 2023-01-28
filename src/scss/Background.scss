@@ -27,7 +27,7 @@ body {
   transform-origin: -10vw;
 }
 .firefly::before {
-  background: rgba(255, 255, 255);
+  background: rgb(255, 255, 255);
   opacity: 0.3;
   animation: drift ease alternate infinite;
 }

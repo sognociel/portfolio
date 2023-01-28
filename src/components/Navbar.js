@@ -2,8 +2,6 @@ import React, { useState } from "react";
 
 import { MdOutlineMenu } from "react-icons/md";
 
-import "../css/Navbar.css";
-
 const Navbar = () => {
   // navbar 항목을 클릭하면 접히게 하는 기능
   const [open, setOpen] = useState(false);

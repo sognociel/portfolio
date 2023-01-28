@@ -3,8 +3,6 @@ import { v4 } from "uuid";
 
 import { projectData } from "../../components/datas/project";
 
-import "../../css/Sections/Project.css";
-
 const Project = () => {
   return (
     <div id="project">
@@ -33,7 +31,7 @@ const Project = () => {
               <h4>기능</h4>
               {item.charge.map((it) => (
                 <React.Fragment key={v4()}>
-                  {it}
+                  👉 {it}
                   <br />
                 </React.Fragment>
               ))}

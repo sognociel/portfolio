@@ -7,8 +7,6 @@ import { BsPerson } from "react-icons/bs";
 import { AiOutlineMail } from "react-icons/ai";
 import { GiTigerHead } from "react-icons/gi";
 
-import "../../css/Sections/AboutMe.css";
-
 const Aboutme = () => {
   return (
     <div id="aboutMe">

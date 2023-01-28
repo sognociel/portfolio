@@ -6,8 +6,6 @@ import Project from "./Sections/Project.js";
 import Career from "./Sections/Career.js";
 import Education from "./Sections/Education.js";
 
-import "../css/Section.css";
-
 const Section = () => {
   return (
     <section>
@@ -16,10 +14,7 @@ const Section = () => {
         <h1>
           <span>박보미</span> 입니다.
         </h1>
-        <p>
-          프론트엔드 개발자가 되기 위해 배운 것들을 소화하고자 열심히 노력하고
-          있습니다.
-        </p>
+        <p>프론트엔드 개발자가 되기 위해 열심히 공부하고 있습니다.</p>
         <p>깔끔하게! 아니면 독특하게!</p>
         <p>
           나도 모르게 한 번쯤은 눈길이 가고, 매력적인 UX를 통해 계속 방문하고

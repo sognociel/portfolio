@@ -3,8 +3,6 @@ import technicalsupport from "../img/technical-support.png";
 import { SiGithub } from "react-icons/si";
 import { RiKakaoTalkFill } from "react-icons/ri";
 
-import "../css/Header.css";
-
 const Header = () => {
   return (
     <div id="header">

@@ -3,8 +3,6 @@ import { v4 } from "uuid";
 
 import { careerData } from "../datas/career";
 
-import "../../css/Sections/CareerAndEdu.css";
-
 const Career = () => {
   return (
     <div id="career">

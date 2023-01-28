@@ -2,8 +2,6 @@ import React, { useState } from "react";
 
 import cogwheel from "../img/cogwheel.png";
 
-import "../css/Main.css";
-
 // 톱니바퀴를 클릭했을 때 소리가 나오는 기능
 const Autoplay = () => {
   return (

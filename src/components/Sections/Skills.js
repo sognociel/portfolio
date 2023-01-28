@@ -13,8 +13,6 @@ import {
 } from "react-icons/si";
 import { FaSass, FaFigma } from "react-icons/fa";
 
-import "../../css/Sections/Skills.css";
-
 const Skills = () => {
   return (
     <div id="skills">

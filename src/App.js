@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import "./App.css";
 import Main from "./components/Main";
 import Background from "./components/Background";
 import Header from "./components/Header";
@@ -7,6 +6,8 @@ import Navbar from "./components/Navbar";
 import Section from "./components/Section";
 import Footer from "./components/Footer";
 import ChannelService from "./components/ChannelService";
+
+import "./App.scss";
 
 ChannelService.boot({
   pluginKey: process.env.REACT_APP_PLUGIN_KEY, //please fill with your plugin key
