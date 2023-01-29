@@ -23,7 +23,7 @@ export const projectData = [
   },
 
   {
-    img: require("../../img/project_img/sport-light.png"),
+    img: require("../../img/project_img/fruits-database.png"),
     team: "개인 프로젝트",
     title: "올해의 과일",
     date: "22. 12. 02 ~ 22. 12. 09",
