@@ -1,28 +1,30 @@
 section {
   @include flexCenter();
   flex-direction: column;
-  font-family: var(--ibm-flex-sans-kr);
+  font-family: var(--NanumSquareNeo-font);
 }
 
 /* info */
 .info {
   @include flexCenter();
   flex-direction: column;
-  font-size: 50px;
+  font-size: 60px;
   margin: 50px 0px 100px 0px;
 
   span {
-    font-size: 80px;
+    font-size: 65px;
     color: var(--light-yellow-color);
   }
 
   p {
+    font-family: var(--LeferiPoint-font);
+    font-weight: lighter;
     font-size: 20px;
   }
 }
 
 h1 {
-  font-size: 70px;
+  font-size: 50px;
   font-family: var(--PyeongChangPeace-font);
   font-weight: 100;
 

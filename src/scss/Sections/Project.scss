@@ -16,6 +16,7 @@
   &__sub {
     @include flexCenter();
     flex-direction: column;
+    line-height: 1.5;
   }
 
   &__sub {
@@ -55,8 +56,8 @@ img {
 
 h3 {
   font-size: 35px;
-  font-family: var(--ibm-flex-sans-kr);
-  font-weight: 900;
+  font-family: var(--LeferiPoint-font);
+  font-weight: bold;
   background: linear-gradient(
     135deg,
     rgba(255, 174, 0, 1) 0%,
@@ -101,13 +102,11 @@ button {
   }
 
   h3 {
-    font-family: var(--default-eng-font);
     font-size: 25px;
     font-weight: 900;
   }
 
   h4 {
-    font-family: var(--hahmlet-font);
     font-size: 16px;
   }
 }

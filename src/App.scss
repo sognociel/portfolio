@@ -47,6 +47,7 @@ body {
 }
 
 :root {
+  // 색상
   --png-yellow-color: invert(70%) sepia(80%) saturate(2320%) hue-rotate(360deg)
     brightness(90%) contrast(180%);
   --png-brown-color: invert(24%) sepia(96%) saturate(717%) hue-rotate(15deg)
@@ -55,12 +56,19 @@ body {
   --purple-color: rgb(102, 103, 171);
   --opacity-purple-color: rgba(102, 103, 171, 0.4);
   --opacity-light-yellow-color: rgba(255, 174, 0, 0.4);
+
+  // 영어폰트
   --default-eng-font: "Gothic A1", sans-serif;
   --light-eng-font: "Alumni Sans", sans-serif;
-  --PyeongChangPeace-font: "PyeongChangPeace-Bold";
-  --ibm-flex-sans-kr: "IBM Plex Sans KR", sans-serif;
-  --hahmlet-font: "Hahmlet", serif;
   --dancing-script-font: "Dancing Script", cursive;
+
+  // 한글폰트
+  --hahmlet-font: "Hahmlet", serif;
+  --PyeongChangPeace-font: "PyeongChangPeace-Bold";
+  --LeferiPoint-font: "LeferiPoint-WhiteObliqueA";
+  --NanumSquareNeo-font: "NanumSquareNeo-Variable";
+
+  // 커서 이미지
   --default-cursor: url("../src/img/cursor_yellow.png"), auto;
   --pointer-cursor: url("../src/img/cursor_purple.png"), auto;
 }
