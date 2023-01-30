@@ -28,11 +28,11 @@ const Footer = () => {
       </a>
 
       <a
-        href="https://www.instagram.com/sognoaurore/"
+        href="https://boatneck-gazelle-7ea.notion.site/864c47b101e64819ad8e190c16d58b70"
         target="_blank"
         rel="noopener noreferrer"
       >
-        <SiInstagram alt="" className="footerImg" />
+        <SiNotion className="footerImg" />
       </a>
 
       <a
@@ -44,11 +44,11 @@ const Footer = () => {
       </a>
 
       <a
-        href="https://boatneck-gazelle-7ea.notion.site/864c47b101e64819ad8e190c16d58b70"
+        href="https://www.instagram.com/sognoaurore/"
         target="_blank"
         rel="noopener noreferrer"
       >
-        <SiNotion className="footerImg" />
+        <SiInstagram alt="" className="footerImg" />
       </a>
     </footer>
   );
