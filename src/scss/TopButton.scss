@@ -1,0 +1,17 @@
+.scroll__container {
+  @include flexCenter();
+  position: fixed;
+  bottom: 24px;
+  right: 94px;
+  width: 60px;
+  height: 60px;
+  backdrop-filter: blur(30px);
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 26px;
+  cursor: pointer;
+
+  &__img {
+    width: 40px;
+    height: 40px;
+  }
+}

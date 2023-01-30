@@ -16,6 +16,8 @@
 @import "./scss/Sections/Project.scss";
 @import "./scss/Sections/Skills.scss";
 
+@import "./scss/TopButton.scss";
+
 .portfolio-app {
   display: flex;
   flex-direction: column;
@@ -55,11 +57,10 @@ body {
   --opacity-light-yellow-color: rgba(255, 174, 0, 0.4);
   --default-eng-font: "Gothic A1", sans-serif;
   --light-eng-font: "Alumni Sans", sans-serif;
-  --handwrite-font: "Nanum Brush Script", cursive;
+  --PyeongChangPeace-font: "PyeongChangPeace-Bold";
   --ibm-flex-sans-kr: "IBM Plex Sans KR", sans-serif;
   --hahmlet-font: "Hahmlet", serif;
   --dancing-script-font: "Dancing Script", cursive;
-  --roboto-mono-font: "Roboto Mono", monospace;
   --default-cursor: url("../src/img/cursor_yellow.png"), auto;
   --pointer-cursor: url("../src/img/cursor_purple.png"), auto;
 }

@@ -5,6 +5,7 @@ import Skills from "./Sections/Skills.js";
 import Project from "./Sections/Project.js";
 import Career from "./Sections/Career.js";
 import Education from "./Sections/Education.js";
+import TopButton from "./TopButton.js";
 
 const Section = () => {
   return (
@@ -26,6 +27,7 @@ const Section = () => {
       <Project></Project>
       <Career></Career>
       <Education></Education>
+      <TopButton></TopButton>
     </section>
   );
 };

@@ -1,51 +1,45 @@
 section {
-  font-family: --ibm-flex-sans-kr;
-  display: flex;
+  @include flexCenter();
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  font-family: var(--ibm-flex-sans-kr);
 }
 
 /* info */
 .info {
-  display: flex;
+  @include flexCenter();
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  font-family: var(--hahmlet-font);
   font-size: 50px;
   margin: 50px 0px 100px 0px;
-}
 
-.info span {
-  font-size: 80px;
-  color: var(--light-yellow-color);
-}
+  span {
+    font-size: 80px;
+    color: var(--light-yellow-color);
+  }
 
-.info > p {
-  font-size: 20px;
+  p {
+    font-size: 20px;
+  }
 }
 
 h1 {
   font-size: 70px;
-  font-family: "PyeongChangPeace-Bold";
+  font-family: var(--PyeongChangPeace-font);
   font-weight: 100;
-}
 
-.info h1:nth-child(2) {
-  margin-bottom: 30px;
+  &:nth-child(2) {
+    margin-bottom: 30px;
+  }
 }
 
 h2 {
   font-family: var(--dancing-script-font);
   font-size: 40px;
   margin-bottom: 50px;
-}
 
-h2::first-letter,
-h2 span::first-letter {
-  color: var(--purple-color);
-  font-size: 80px;
+  &::first-letter {
+    color: var(--purple-color);
+    font-size: 80px;
+  }
 }
 
 #aboutMe,
@@ -64,32 +58,31 @@ h2 span::first-letter {
   .info {
     font-size: 50px;
     margin: 20px 0px 0px 0px;
-  }
 
-  .info span {
-    font-size: 60px;
-  }
+    span {
+      font-size: 60px;
+    }
 
-  .info > p {
-    font-size: 15px;
+    p {
+      font-size: 15px;
+    }
   }
 
   h1 {
     font-size: 50px;
-  }
 
-  .info h1:nth-child(2) {
-    margin-bottom: 20px;
+    &:nth-child(2) {
+      margin-bottom: 20px;
+    }
   }
 
   h2 {
     font-size: 30px;
     margin-bottom: 50px;
-  }
 
-  h2::first-letter,
-  h2 span::first-letter {
-    color: var(--purple-color);
-    font-size: 60px;
+    &::first-letter {
+      color: var(--purple-color);
+      font-size: 60px;
+    }
   }
 }

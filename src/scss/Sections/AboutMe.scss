@@ -7,14 +7,6 @@
   font-size: 40px;
 }
 
-.aboutMe_container {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-auto-rows: minmax(100px, auto);
-  width: auto;
-  height: auto;
-}
-
 .name,
 .birth,
 .address,
@@ -28,15 +20,25 @@
   padding: 0px 30px;
 }
 
-.aboutMe_content {
-  text-align: left;
-  margin-left: 20px;
-}
+.aboutMe {
+  &_container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+    width: auto;
+    height: auto;
+  }
 
-.aboutMe__label {
-  font-size: 20px;
-  font-weight: 900;
-  font-family: var(--hahmlet-font);
+  &_content {
+    text-align: left;
+    margin-left: 20px;
+  }
+
+  &__label {
+    font-size: 20px;
+    font-weight: 900;
+    font-family: var(--hahmlet-font);
+  }
 }
 
 @media screen and (max-width: 880px) {

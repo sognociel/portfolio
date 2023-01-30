@@ -10,10 +10,10 @@ footer {
   margin: 0px 40px;
   color: var(--opacity-light-yellow-color);
   transition: 1s all ease-in-out;
-}
 
-.footerImg:hover {
-  color: var(--light-yellow-color);
+  &:hover {
+    color: var(--light-yellow-color);
+  }
 }
 
 @media screen and (max-width: 880px) {

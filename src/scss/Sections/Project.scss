@@ -1,75 +1,80 @@
-.project_container {
-  display: grid;
-  grid-template-columns: 3fr 2fr;
-  height: auto;
+.project {
+  &_container {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    height: auto;
 
-  background-color: var(--opacity-purple-color);
-  border-radius: 15px;
-  margin-bottom: 50px;
-  padding: 50px 30px 30px 30px;
+    background-color: var(--opacity-purple-color);
+    border-radius: 15px;
+    margin-bottom: 50px;
+    padding: 50px 30px 30px 30px;
 
-  word-break: keep-all;
-}
+    word-break: keep-all;
+  }
 
-.project__content,
-.project__sub {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
+  &__content,
+  &__sub {
+    @include flexCenter();
+    flex-direction: column;
+  }
 
-.project__content {
-  align-items: center;
-}
+  &__sub {
+    align-items: flex-start;
+    text-align: start;
+  }
 
-.project__sub {
-  align-items: flex-start;
-  text-align: start;
+  &__team {
+    margin-top: 20px;
+    opacity: 0.8;
+    font-family: var(--hahmlet-font);
+  }
+
+  &__title,
+  &__date,
+  &__skills,
+  &__charge {
+    margin-bottom: 20px;
+  }
+
+  &__remembrance {
+    margin-bottom: 40px;
+    text-align: justify;
+  }
+
+  &__link {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
 }
 
 img {
   width: 90%;
 }
 
-.project__team {
-  margin-top: 20px;
-  opacity: 0.8;
-  font-family: var(--hahmlet-font);
-}
-
 h3 {
   font-size: 35px;
-  font-family: var(--default-eng-font);
+  font-family: var(--ibm-flex-sans-kr);
   font-weight: 900;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 174, 0, 1) 0%,
+    rgba(255, 255, 255, 1) 81%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  color: transparent;
+  -webkit-background-clip: text;
 }
 
 h4 {
   width: fit-content;
-  font-size: 20px;
-  font-family: var(--hahmlet-font);
   background-color: var(--purple-color);
   border-radius: 5px;
   padding: 3px 15px;
   margin-bottom: 10px;
-}
-
-.project__title,
-.project__date,
-.project__skills,
-.project__charge {
-  margin-bottom: 20px;
-}
-
-.project__remembrance {
-  margin-bottom: 40px;
-  text-align: justify;
-}
-
-.project__link {
-  width: 100%;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
+  font-family: var(--hahmlet-font);
+  font-size: 20px;
 }
 
 button {
@@ -78,28 +83,31 @@ button {
   padding: 10px 30px;
   border-radius: 50px;
   transition: all 1s ease-in-out;
-}
 
-button:hover {
-  background-color: var(--light-yellow-color);
+  &:hover {
+    background-color: var(--light-yellow-color);
+  }
 }
 
 @media screen and (max-width: 1300px) {
-  .project_container {
-    grid-template-columns: 1fr;
+  .project {
+    &_container {
+      grid-template-columns: 1fr;
+    }
+
+    &__team {
+      margin-bottom: 20px;
+    }
   }
+
   h3 {
-    font-size: 25px;
     font-family: var(--default-eng-font);
+    font-size: 25px;
     font-weight: 900;
   }
 
   h4 {
-    font-size: 16px;
     font-family: var(--hahmlet-font);
-  }
-
-  .project__team {
-    margin-bottom: 20px;
+    font-size: 16px;
   }
 }
