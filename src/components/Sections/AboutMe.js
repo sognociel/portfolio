@@ -52,7 +52,7 @@ const Aboutme = () => {
             <div className="aboutMe__text">
               고려대학교
               <br />
-              경엉정보학과·일어일문학과
+              경영정보학과·일어일문학과
             </div>
           </div>
         </div>
