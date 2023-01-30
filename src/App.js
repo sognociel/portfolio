@@ -27,7 +27,9 @@ function App() {
         </div>
       ) : (
         <>
-          <div className="fixed-border"></div>
+          <div className="fixed-border">
+            <div className="fixed-border__img"></div>
+          </div>
           <div className="portfolio-app">
             <Background />
             <Header />

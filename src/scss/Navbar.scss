@@ -1,8 +1,9 @@
 nav {
   position: fixed;
   top: 100px;
-  width: inherit;
+  width: calc(100vw * 0.8);
   margin: auto;
+  z-index: 100;
 
   ul {
     display: flex;
@@ -42,6 +43,11 @@ nav {
     position: absolute;
     top: -66px;
     right: -15px;
+  }
+
+  nav {
+    background: url("../img/smoke.png");
+    border-radius: 0 0 30px 30px;
   }
 
   ul li {
