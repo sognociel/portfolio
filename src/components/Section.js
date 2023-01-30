@@ -13,7 +13,8 @@ const Section = () => {
       <div className="info">
         <h1>꾸준한 노력가</h1>
         <h1>
-          <span>박보미</span> 입니다.
+          <span>박보미</span> <br />
+          입니다.
         </h1>
         <p>프론트엔드 개발자가 되기 위해 공부하고 있습니다.</p>
         <p>깔끔하게! 아니면 독특하게!</p>
