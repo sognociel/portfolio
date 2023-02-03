@@ -39,10 +39,6 @@
   --PyeongChangPeace-font: "PyeongChangPeace-Bold";
   --LeferiPoint-font: "LeferiPoint-WhiteObliqueA";
   --NanumSquareNeo-font: "NanumSquareNeo-Variable";
-
-  // 커서 이미지
-  --default-cursor: url("../src/img/cursor_yellow.png"), auto;
-  --pointer-cursor: url("../src/img/cursor_purple.png"), auto;
 }
 
 .portfolio-app {
@@ -54,23 +50,22 @@
   animation: pageOpen 4s ease-in-out;
 }
 
-.fixed-border {
-  margin-top: 210px;
+// .fixed-border {
+//   margin-top: 210px;
 
-  &__img {
-    width: 100vw;
-    height: 210px;
-    background: url("./img/smoke.png");
-    border-radius: 0 0 150px 150px;
-    position: fixed;
-    top: 0;
-    left: 0;
-  }
-}
+//   &__img {
+//     width: 100vw;
+//     height: 210px;
+//     background: url("./img/smoke.png");
+//     border-radius: 0 0 150px 150px;
+//     position: fixed;
+//     top: 0;
+//     left: 0;
+//   }
+// }
 
 html {
   scroll-behavior: smooth;
-  cursor: var(--default-cursor);
 }
 
 body {
@@ -96,7 +91,7 @@ a,
 button {
   text-decoration: none;
   color: inherit;
-  cursor: var(--pointer-cursor);
+  cursor: pointer;
 }
 
 @keyframes rotateCog {

@@ -34,7 +34,7 @@ nav {
   display: none;
   font-size: 30px;
   color: var(--light-yellow-color);
-  cursor: var(--pointer-cursor);
+  cursor: pointer;
 }
 
 @media screen and (max-width: 880px) {
