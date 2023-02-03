@@ -1,12 +1,11 @@
 #header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  @include flexSpaceBetween();
   width: calc(100vw * 0.8);
   height: 100px;
   position: fixed;
   top: 0;
   z-index: 100;
+  padding-top: 10px;
 }
 
 .default {
@@ -23,14 +22,12 @@
 }
 
 .bomis_portfolio {
-  font-size: 35px;
+  font-size: 30px;
   margin-left: 10px;
 }
 
 .contact {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @include flexCenter();
 
   &_icon {
     font-size: 35px;

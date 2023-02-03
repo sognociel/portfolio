@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Main from "./components/Main";
 import Background from "./components/Background";
 import Header from "./components/Header";
-import Navbar from "./components/Navbar";
+// import Navbar from "./components/Navbar";
 import Section from "./components/Section";
 import Footer from "./components/Footer";
 import ChannelService from "./components/ChannelService";
@@ -28,12 +28,12 @@ function App() {
       ) : (
         <>
           <div className="fixed-border">
-            <div className="fixed-border__img"></div>
+            <div className="fixed-border__background"></div>
           </div>
           <div className="portfolio-app">
             <Background />
             <Header />
-            <Navbar />
+            {/* <Navbar /> */}
             <Section />
             <Footer />
           </div>

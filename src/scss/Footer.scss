@@ -1,7 +1,5 @@
 footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @include flexCenter();
   height: 100px;
 }
 

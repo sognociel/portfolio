@@ -1,3 +1,5 @@
+import Navbar from "./Navbar";
+
 import technicalsupport from "../img/technical-support.png";
 
 import { SiGithub } from "react-icons/si";
@@ -10,6 +12,7 @@ const Header = () => {
         <img src={technicalsupport} alt="" className="nav_cogwheel" />
         <div className="bomis_portfolio">BOMI's Portfolio</div>
       </div>
+      <Navbar />
       <div className="contact">
         <a
           href="https://github.com/sognociel"

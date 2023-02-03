@@ -1,7 +1,7 @@
 section {
-  width: 100%;
   @include flexCenter();
   flex-direction: column;
+  width: 100%;
   font-family: var(--NanumSquareNeo-font);
 }
 
@@ -50,11 +50,9 @@ h2 {
 #project,
 #career,
 #edu {
-  width: 100%;
-  display: flex;
+  @include flexCenter();
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  width: 100%;
 }
 
 @media screen and (max-width: 880px) {
