@@ -49,4 +49,4 @@
 
 <a href="https://www.flaticon.com/free-icon/settings_2595676?related_id=2595676&origin=search" target_="_blank">main cogwheel icon</a><br />
 <a href="https://www.flaticon.com/free-icon/technical-support_1835948?term=cogwheel&page=1&position=19&page=1&position=19&related_id=1835948&origin=search" target_="_blank">header cogwheel icon</a><br />
-<a href="https://www.flaticon.com/free-icon/gear_4809220?term=cogwheel&page=1&position=1&page=1&position=1&related_id=4809220&origin=search" target_="_blank">pointer icon</a><br /><br />
+<a href="https://www.flaticon.com/free-icon/arrows_10182898?term=arrow&page=2&position=39&origin=search&related_id=10182898" target_="_blank">arrow icon</a><br /><br />
