@@ -21,6 +21,7 @@ section {
     font-family: var(--LeferiPoint-font);
     font-weight: lighter;
     font-size: 20px;
+    margin-bottom: 20px;
   }
 }
 
@@ -30,7 +31,7 @@ h1 {
   font-weight: 100;
 
   &:nth-child(2) {
-    margin-bottom: 30px;
+    margin-bottom: 60px;
   }
 }
 

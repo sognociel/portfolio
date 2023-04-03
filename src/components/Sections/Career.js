@@ -20,7 +20,7 @@ const Career = () => {
             <div className="career__info">
               {item.info.map((it) => (
                 <React.Fragment key={v4()}>
-                  {it}
+                  - {it}
                   <br />
                 </React.Fragment>
               ))}
